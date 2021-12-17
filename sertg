@@ -1,0 +1,43 @@
+9
+x = int(input('введите растояние до близайшего столба '))  
+y = int(input('введите растояние между столбами ')) 
+nk = int(input('введите номер столба ')) 
+n1 = x
+n = 1
+k = 0
+while nk >= n:
+    k = n1 + y
+    n1 = k
+    n = n + 1
+    
+    
+    
+    
+if n == 1:
+    print(n1) 
+
+
+
+     
+else:
+    print(k)
+
+
+11
+import math
+x = float(input())
+print((math.modf(x))[0])
+
+
+13
+L = int(input('Длина столба '))  
+x = int(input('длина куска '))  
+k = L//x
+print(k)
+
+
+14
+L = int(input('Длина столба '))  
+n = int(input('кол-во распилов '))  
+k = L/(n+1)
+print(k)
